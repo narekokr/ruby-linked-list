@@ -123,11 +123,11 @@ class LinkedList
 end
 
 list = LinkedList.new
-list.append('qaq')
-list.append('sher')
-list.append('jm')
-list.prepend('bruh moment')
-list.insert_at(4,'ijuhgf')
+list.append('First')
+list.append('Second')
+list.append(7)
+list.prepend('Third')
+list.insert_at(4,'Fourth')
 list.remove_at(2)
 
 list.to_s
